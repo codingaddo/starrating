@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 const StarRating = (
     {fill,
         maxRating=5,
-        defaultRating,
+        defaultRating=0,
         size=24
         ,color,
         messages=[],
